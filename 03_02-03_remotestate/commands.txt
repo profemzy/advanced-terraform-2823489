@@ -1,0 +1,7 @@
+terraform init \
+    -backend-config="bucket=infotitans-tfstate" \
+    -backend-config="key=infotitans/ecommerceapp/app.state" \
+    -backend-config="region=eu-west-3" \
+    -backend-config="dynamodb_table=infotitans-tfstatelock" \
+    -backend-config="access_key=AKIARW6ASUTOSX4OBKSE" \
+    -backend-config="secret_key=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"
