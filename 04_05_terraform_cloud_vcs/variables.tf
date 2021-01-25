@@ -21,7 +21,7 @@ variable "instance_tags" {
     }
 }
 # //////////////////////////////
-# OUTPUT
+# OUTPUT INFO
 # //////////////////////////////
 output "instance-ip" {
   value = module.ec2_cluster.public_ip
